@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+.food-section {
+  border: 1px solid black;
+  box-sizing: border-box;
+  margin: 10px;
+  padding: 20px;
+  position: relative;
+}
+
+.food-section h2 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #ffcc00;
+  padding: 5px 10px;
+  margin: 0;
+  color: #333;
+}
+@media screen and (min-width: 992px) {
+  .food-section {
+    width: calc(33.33% - 20px);
+    float: left;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .food-section {
+    width: calc(50% - 20px);
+    float: left;
+  }
+  .food-section:nth-child(3) {
+    width: 100%;
+    clear: both;
+  }
+}
+@media screen and (max-width: 767px) {
+  .food-section {
+    width: 100%;
+    float: none;
+  }
+}
