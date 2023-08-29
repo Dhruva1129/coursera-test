@@ -4,7 +4,6 @@
 body{
 	margin: 0;
 	padding: 0;
-  font-family: "Comic Sans MS", cursive, sans-serif;
 }
 .row{
   margin-top: 5%;
@@ -16,11 +15,10 @@ h1 {
   color: #ff4532;
   font-size: 50px;
 }
-.box{
+.container{
   width: 100%;
   overflow: none;
 }
-
 .content-name{
   overflow: none;
   text-align: center;
@@ -39,7 +37,7 @@ h1 {
   width: 90%;
   height: auto;
   margin: 2.5%;
-  color: black
+  color: black;
   font-size: 25px;
   padding: 2%;
   padding-top: 55px;
